@@ -40,7 +40,7 @@ public class Player : MonoBehaviour {
         float camDistance = -10;
         RaycastHit hit;
         if (Physics.Raycast(cameraOrigin.position, -cameraOrigin.forward, out hit, 11f, 1<<0)) {
-            camDistance = -hit.distance + .5f;
+            if (hit.distance > 1) camDistance = -hit.distance + .5f;
         }
 
         //Lerp camera to distance position

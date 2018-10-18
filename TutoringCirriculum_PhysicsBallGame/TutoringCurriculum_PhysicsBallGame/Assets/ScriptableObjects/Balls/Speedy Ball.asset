@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c6a64198f2b7b4d96e347f5af79cf4, type: 3}
+  m_Name: Speedy Ball
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 1958482226656956, guid: 3347dd673827ef344acf3426e278c3b5, type: 2}
+  type: 5
+  description: Speedy Ball accelerates much faster than the other balls.
